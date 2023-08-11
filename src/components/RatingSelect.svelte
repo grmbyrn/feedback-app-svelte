@@ -3,7 +3,7 @@
 
     let selected = 10
 
-    const dispatch = createEventDispatcher
+    const dispatch = createEventDispatcher()
 
     const onChange = (e) => {
         selected = e.currentTarget.value
